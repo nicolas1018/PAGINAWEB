@@ -1,0 +1,63 @@
+body{
+  color: white;
+  background: black;
+  margin: 2px;
+}
+
+header{
+  font-size: 70px;
+  color: yellow;
+  border-bottom: solid 2px rgb(30,38,145);
+  margin: 20px;
+  padding: 20px;
+  display: relative;
+   font-family: "Permanent Marker", cursive;
+}
+
+.inicio{
+  background: rgb(204,25,25);
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+   font-family: "Zilla Slab", serif;
+}
+
+.entrada{
+  margin-right: 50px;
+}
+.descricao{
+  font-size:30px;
+  text-align: justify;
+}
+
+.vermelho{
+  color: rgb(224,0,0);
+}
+
+img{
+  height: 200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outros{
+  font-family: "Zilla Slab", serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: solid 3px red;
+  border-radius: 20px;
+}
